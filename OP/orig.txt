@@ -1,0 +1,100 @@
+FSMD name: qq
+** SearchInsert : inserted : BREAK	at position 0
+** SearchInsert : inserted : LOOP_END	at position 1
+starting yyparse : 
+** INfsmd : started
+** INfsmd : state transition added 
+paperO	q1000
+** Parser : identifier found original
+** Parser : identifier found i
+** SearchInsert : inserted : i	at position 2
+** Parser : No data intialization in id: i
+******* Parser : cool inserted i
+** Parser : identifier found a
+~~~~~~~~~~~~~~~~~~~~ array found
+~~~~~~~~~~~~~~~~~~~~ array found
+** SearchInsert : inserted : a	at position 3
+** Parser : No data intialization in id: a
+******* Parser : cool inserted a
+~~~~~~~~~~~~~~ list : i a i
+** Parser : identifier found dL
+** SearchInsert : inserted : dL	at position 4
+** Parser : No data intialization in id: dL
+******* Parser : cool inserted dL
+~~~~~~~~~~~~~~ list : i dL i
+** Parser : identifier found dR
+** SearchInsert : inserted : dR	at position 5
+** Parser : No data intialization in id: dR
+******* Parser : cool inserted dR
+~~~~~~~~~~~~~~ list : i dR i
+** Parser : identifier found dD
+** SearchInsert : inserted : dD	at position 6
+** Parser : No data intialization in id: dD
+******* Parser : cool inserted dD
+~~~~~~~~~~~~~~ list : i dD i
+no declarations listed
+** Parser : identifier found rT
+~~~~~~~~~~~~~~~~~~~~ array found
+** SearchInsert : inserted : rT	at position 7
+** Parser : No data intialization in id: rT
+******* Parser : cool inserted rT
+** Parser : identifier found rE
+~~~~~~~~~~~~~~~~~~~~ array found
+** SearchInsert : inserted : rE	at position 8
+** Parser : No data intialization in id: rE
+******* Parser : cool inserted rE
+~~~~~~~~~~~~~~ list : rT rE rT
+** Parser : identifier found rO
+~~~~~~~~~~~~~~~~~~~~ array found
+** SearchInsert : inserted : rO	at position 9
+** Parser : No data intialization in id: rO
+******* Parser : cool inserted rO
+~~~~~~~~~~~~~~ list : rT rO rT
+** Parser : identifier found rP
+~~~~~~~~~~~~~~~~~~~~ array found
+** SearchInsert : inserted : rP	at position 10
+** Parser : No data intialization in id: rP
+******* Parser : cool inserted rP
+~~~~~~~~~~~~~~ list : rT rP rT
+** Parser : identifier found rnP
+~~~~~~~~~~~~~~~~~~~~ array found
+** SearchInsert : inserted : rnP	at position 11
+** Parser : No data intialization in id: rnP
+******* Parser : cool inserted rnP
+~~~~~~~~~~~~~~ list : rT rnP rT
+no declarations listed
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : identifier found in expression n
+***** temporary variable insertion : n
+** SearchInsert : inserted : n	at position 12
+** Parser : identifier found in expression i
+** Parser : identifier found in expression dL
+** Parser : identifier found in expression dL
+** Parser : identifier found in expression a
+** Parser : identifier found in expression i
+** Parser : identifier found in expression i
+** Parser : expression :: dL=dL+a[i][i]
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression dR
+** Parser : identifier found in expression dR
+** Parser : identifier found in expression a
+** Parser : identifier found in expression i
+** Parser : identifier found in expression n
+***** function call found : function name : n
+** Parser : identifier found in expression i
+** Parser : expression :: dR=dR+a[i][-i]
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression dD
+** Parser : identifier found in expression dD
+** Parser : identifier found in expression dL
+** Parser : identifier found in expression dR
+** Parser : expression :: dD=dD+dL-dR
+** INfsmd : started
+** INfsmd : state transition added 
+** Parser : identifier found in expression j
+***** temporary variable insertion : j
+** SearchInsert : inserted : j	at position 13
+variable used before declaration in line number 15

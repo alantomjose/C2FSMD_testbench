@@ -1,0 +1,15 @@
+digraph routine
+{
+fontname = "Times-Roman"; fontsize = 14;
+nodesep = 0.1; ranksep = 0.5;
+node [height = 0.25, width = 0.4, shape = box ];
+edge [color = black ];
+nodegg1000 [color=chocolate shape=record,label="{gg1000 : data_transitions=1\n}"];
+nodeqq1001 [color=chocolate shape=record,label="{qq1001 : data_transitions=1\n|y1=5+y2\n}"];
+nodegg1002 [color=chocolate shape=record,label="{gg1002 : data_transitions=0\n}"];
+nodegg1000 -> nodeqq1001 [label=""];
+nodeqq1001 -> nodegg1002 [label=""];
+
+}
+
+
